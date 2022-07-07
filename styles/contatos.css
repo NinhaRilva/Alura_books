@@ -1,0 +1,52 @@
+
+.contatos{
+  font-family:'Poppins';
+  background-color: #ffffff;
+  padding:2em;
+ }
+ .contatos__titulo{
+   font-weight: 600;
+   color: #002F52;
+ }
+ .contatos__texto{  
+  color: #002F52;
+   font-weight: 300;
+   padding: 1em 0;
+ }
+ 
+ .contatos__input{
+
+   width: 90%;
+  border-radius: 20px;
+  padding: 0.8em;
+  margin: 0 auto;
+  color: #002F52;
+
+  }
+  .contatos__input::placeholder{
+   background-image: url("/imagem/iconeMenu/carta.svg") ;
+   background-repeat: no-repeat;
+   padding:0  3em;
+   margin: 0 1em;
+ 
+   border: 1px solid var(--branco);
+
+  }
+  @media screen and (min-width:1024px)
+   {
+    .contatos{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .contatos__titulo{
+      font-size: 24px;
+      width: 50%;
+    }
+    .contatos__input{
+     width: 30%;
+     margin: 2em;
+    }
+    
+  }
+ 
